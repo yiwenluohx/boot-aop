@@ -1,0 +1,7 @@
+server:
+  port: 8099
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://quality_check_fat:quality_check_fat@192.168.10.12:27017/quality_check?authSource=quality_check
